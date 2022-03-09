@@ -1,0 +1,19 @@
+{
+  "env": {
+    "TOKEN": "",
+    "PREFIX": "",
+    "MongoDB_TOKEN": ""
+  },
+  "ticket_category": {
+    "generalHelp": "",
+    "bugReport": "",
+    "orderBot": "",
+    "staffApply": "",
+    "partnerApply": "",
+    "sourceCode": ""
+  },
+  "ticket_extra": {
+    "transcript_channel": "",
+    "ticket_supporter_role": ""
+  }
+}
