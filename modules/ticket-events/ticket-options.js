@@ -229,7 +229,7 @@ Claimed By: **${TranscriptClimedByUser.user.tag}** (${TranscriptClimedByUser.id}
                                 ]
                             })
                         
-                            setTimeout(() => {
+                            setTimeout(async () => {
 
                                 await Data.findOneAndDelete({
                                     channelID: interaction.channel.id
