@@ -41,7 +41,7 @@ module.exports = {
                         ]
                     })
 
-                    setTimeout(() => {
+                    setTimeout(async () => {
 
                         await Data.findOneAndDelete({
                             channelID: interaction.channel.id
